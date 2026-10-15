@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluación de Matemáticas</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #d4af37;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #ffd700;
+            box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
+        }
+
+        h1 {
+            color: #ffd700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        p.intro {
+            text-align: center;
+            color: #cccccc;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            margin-bottom: 30px;
+        }
+
+        .pregunta {
+            margin-bottom: 25px;
+            background-color: #262626;
+            padding: 18px;
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+        }
+
+        label.titulo-pregunta {
+            font-weight: bold;
+            font-size: 17px;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .opcion {
+            margin: 8px 0;
+            color: #e6ca65;
+            font-size: 15px;
+            cursor: pointer;
+            display: block;
+        }
+
+        input[type="radio"] {
+            accent-color: #ffd700;
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+
+        .btn-contenedor {
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .btn-principal {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ffd700;
+            color: #121212;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-principal:hover {
+            background-color: #ffffff;
+            color: #000000;
+            box-shadow: 0 0 15px #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Evaluación de Matemáticas</h1>
+        <p class="intro">Responde las siguientes preguntas con base en el audio y video de la lección.</p>
+        <hr>
+
+        <form>
+            <div class="pregunta">
+                <label class="titulo-pregunta">1. Según el audio, ¿para qué fueron inventadas originalmente las matemáticas?</label>
+                <label class="opcion"><input type="radio" name="preg1" value="a"> Para medir distancias entre ciudades</label>
+                <label class="opcion"><input type="radio" name="preg1" value="b"> Para contar las pertenencias</label>
+                <label class="opcion"><input type="radio" name="preg1" value="c"> Para predecir el clima</label>
+            </div>
+
+            <div class="pregunta">
+                <label class="titulo-pregunta">2. ¿Qué ventaja tienen las fórmulas y operaciones según el profesor?</label>
+                <label class="opcion"><input type="radio" name="preg2" value="a"> Reducen mucho el tiempo de contar, sumar y multiplicar</label>
+                <label class="opcion"><input type="radio" name="preg2" value="b"> Hacen los cálculos más difíciles</label>
+                <label class="opcion"><input type="radio" name="preg2" value="c"> Reemplazan a los profesores</label>
+            </div>
+
+            <div class="pregunta">
+                <label class="titulo-pregunta">3. ¿Cómo describe el profesor a muchas de esas fórmulas?</label>
+                <label class="opcion"><input type="radio" name="preg3" value="a"> Muy complicadas</label>
+                <label class="opcion"><input type="radio" name="preg3" value="b"> Muy sencillas</label>
+                <label class="opcion"><input type="radio" name="preg3" value="c"> Poco útiles</label>
+            </div>
+
+            <div class="pregunta">
+                <label class="titulo-pregunta">4. ¿Qué ejemplo de cálculo menciona con fórmulas?</label>
+                <label class="opcion"><input type="radio" name="preg4" value="a"> La velocidad a la que debo ir para llegar a cierto lugar</label>
+                <label class="opcion"><input type="radio" name="preg4" value="b"> El costo de una casa</label>
+                <label class="opcion"><input type="radio" name="preg4" value="c"> La temperatura de una ciudad</label>
+            </div>
+
+            <div class="pregunta">
+                <label class="titulo-pregunta">5. ¿Cómo considera el profesor a las matemáticas?</label>
+                <label class="opcion"><input type="radio" name="preg5" value="a"> Una materia opcional</label>
+                <label class="opcion"><input type="radio" name="preg5" value="b"> Una herramienta muy importante para la vida</label>
+                <label class="opcion"><input type="radio" name="preg5" value="c"> Una materia solo útil para los estudios</label>
+            </div>
+
+<div br>
+<center>
+    <a href="index2.html" class="btn-evaluacion" style="text-decoration: none;">Volver a la Página Principal</a>
+</center>
+</div>
+            </div>
+            
+        
+    
+
+</body>
+</html>

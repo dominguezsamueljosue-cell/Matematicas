@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluación de Matemáticas</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #d4af37;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #ffd700;
+            box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
+        }
+
+        h1 {
+            color: #ffd700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        p.intro {
+            text-align: center;
+            color: #cccccc;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            margin-bottom: 30px;
+        }
+
+        .pregunta {
+            margin-bottom: 25px;
+            background-color: #262626;
+            padding: 18px;
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+        }
+
+        label.titulo-pregunta {
+            font-weight: bold;
+            font-size: 17px;
+            color: #ffffff;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .opcion {
+            margin: 8px 0;
+            color: #e6ca65;
+            font-size: 15px;
+            cursor: pointer;
+            display: block;
+        }
+
+        input[type="radio"] {
+            accent-color: #ffd700;
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+
+        .btn-contenedor {
+            text-align: center;
+            margin-top: 35px;
+        }
+
+        .btn-principal {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ffd700;
+            color: #121212;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-principal:hover {
+            background-color: #ffffff;
+            color: #000000;
+            box-shadow: 0 0 15px #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Evaluación de Matemáticas</h1>
+        <p class="intro">Responde las siguientes preguntas con base en el audio y video de la lección.</p>
+        <hr>
+
+        <form>
+            <div class="pregunta">
+    <label class="titulo-pregunta">1. Según la ley de los signos, ¿cuál es el resultado de multiplicar dos signos iguales (positivo por positivo o negativo por negativo)?</label>
+    <label class="opcion"><input type="radio" name="preg_v1" value="a"> Siempre da un resultado Positivo (+)</label>
+    <label class="opcion"><input type="radio" name="preg_v1" value="b"> Siempre da un resultado Negativo (-)</label>
+    <label class="opcion"><input type="radio" name="preg_v1" value="c"> Siempre da cero (0)</label>
+</div>
+
+<div class="pregunta">
+    <label class="titulo-pregunta">2. ¿Qué sucede al multiplicar o dividir dos signos diferentes (positivo por negativo)?</label>
+    <label class="opcion"><input type="radio" name="preg_v2" value="a"> El resultado es Positivo (+)</label>
+    <label class="opcion"><input type="radio" name="preg_v2" value="b"> El resultado es Negativo (-)</label>
+    <label class="opcion"><input type="radio" name="preg_v2" value="c"> El signo no cambia</label>
+</div>
+
+<div class="pregunta">
+    <label class="titulo-pregunta">3. ¿Cuál es el resultado de la siguiente operación: (-5) × (-4)?</label>
+    <label class="opcion"><input type="radio" name="preg_v3" value="a"> -20</label>
+    <label class="opcion"><input type="radio" name="preg_v3" value="b"> +20</label>
+    <label class="opcion"><input type="radio" name="preg_v3" value="c"> -9</label>
+</div>
+
+<div class="pregunta">
+    <label class="titulo-pregunta">4. ¿Cuál es el resultado de realizar la división: (-18) ÷ (+3)?</label>
+    <label class="opcion"><input type="radio" name="preg_v4" value="a"> -6</label>
+    <label class="opcion"><input type="radio" name="preg_v4" value="b"> +6</label>
+    <label class="opcion"><input type="radio" name="preg_v4" value="c"> -15</label>
+</div>
+
+<div class="pregunta">
+    <label class="titulo-pregunta">5. En la regla fácil de memoria que enseña Daniel Carreón, "Signos iguales dan..." y "Signos diferentes dan...":</label>
+    <label class="opcion"><input type="radio" name="preg_v5" value="a"> Iguales dan Más (+) y Diferentes dan Menos (-)</label>
+    <label class="opcion"><input type="radio" name="preg_v5" value="b"> Iguales dan Menos (-) y Diferentes dan Más (+)</label>
+    <label class="opcion"><input type="radio" name="preg_v5" value="c"> Ambos siempre dan Más (+)</label>
+</div>
+
+<div br>
+<center>
+    <a href="index2.html" class="btn-evaluacion" style="text-decoration: none;">Volver a la Página Principal</a>
+</center>
+</div>
+            </div>
+            
+        
+    
+
+</body>
+</html>

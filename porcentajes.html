@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Materias</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #d4af37;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #e6ca65;
+            font-weight: 300;
+        }
+
+        h3 {
+            color: #ffffff;
+            margin-top: 30px;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #ffd700, transparent);
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .media-container {
+            background-color: #1e1e1e;
+            border: 2px solid #ffd700;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 650px;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);
+        }
+
+        audio, video {
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .btn-evaluacion {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 30px;
+            background-color: #ffd700;
+            color: #121212;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-evaluacion:hover {
+            background-color: #ffffff;
+            color: #000000;
+            box-shadow: 0 0 15px #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Matemáticas</h1>
+    <h2>IMPARTE: Mtro. Cabrera</h2>
+    <hr>
+
+    <h3>¿Como calcular Porcentajes?</h3>
+    <div class="media-container">
+        <audio controls>
+            <source src="audios/audio_porcentajes.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <h1>Explicación en Video</h1>
+    <div class="media-container">
+        <video width="100%" height="auto" controls>
+            <source src="audios/video_porcentajes.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <br>
+<div style="display: flex; gap: 15px; justify-content: center; margin-top: 20px;">
+    <a href="index2.html" class="btn-evaluacion" style="text-decoration: none;">Volver a la Página Principal</a>
+    <a href="evaluacion_porcentajes.html" class="btn-evaluacion" style="text-decoration: none;">Ir al Examen</a>
+</div>
+</body>
+</html>
